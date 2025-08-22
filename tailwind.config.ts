@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				crypto: {
+					primary: 'hsl(var(--crypto-primary))',
+					secondary: 'hsl(var(--crypto-secondary))',
+					success: 'hsl(var(--crypto-success))',
+					'success-foreground': 'hsl(var(--crypto-success-foreground))',
+					pending: 'hsl(var(--crypto-pending))',
+					muted: 'hsl(var(--crypto-muted))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
