@@ -55,10 +55,13 @@ export default {
 				crypto: {
 					primary: 'hsl(var(--crypto-primary))',
 					secondary: 'hsl(var(--crypto-secondary))',
+					accent: 'hsl(var(--crypto-accent))',
 					success: 'hsl(var(--crypto-success))',
 					'success-foreground': 'hsl(var(--crypto-success-foreground))',
 					pending: 'hsl(var(--crypto-pending))',
-					muted: 'hsl(var(--crypto-muted))'
+					muted: 'hsl(var(--crypto-muted))',
+					light: 'hsl(var(--crypto-light))',
+					beige: 'hsl(var(--crypto-beige))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
